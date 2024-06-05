@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: "gilroy";
     src: url(/Gilroy-Regular.ttf);
@@ -121,3 +122,163 @@ nav:hover #nav-bottom {
   width: 100%;
   background-color: #111;
 }
+=======
+
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2vw 10.4vw;
+    justify-content: space-between;    
+}
+
+.nav-part-2 {
+    display: flex;
+    gap: 2vw;
+}
+
+.nav-part-2  h4{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav:hover #nav-bottom {
+    height: 150%;
+    bottom: -150%;
+    background-color: #111;
+}
+
+#nav-bottom  {
+    cursor: pointer;
+    height: 0%;
+    position: absolute;
+    width: 80%;
+    transition: all ease 0.65s ;
+    bottom: 0%;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    align-items: flex-start;
+   justify-content: space-between;
+    padding: 2vw 12vw;
+    padding-left: 12vw;
+    padding-top: 3vw;
+}
+
+.bottom-div {
+    margin-top: 2vw;
+}
+
+.bottom-div h5 {
+    margin-bottom: 0.4vw;
+    overflow: hidden;
+}
+
+.bottom-div  h5 span{
+    font-weight: 500;
+    font-size: .8vw;
+    display: inline-block;
+    opacity: 0;
+
+}
+
+.nav-button {
+    background-color: #0da34e;
+    display: flex;
+    align-items: center;
+    padding: 12px 14px ;
+    font-size: 1vw;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+    justify-content: space-between;
+    text-transform: uppercase;
+
+}
+
+.nav-button svg { 
+    height: 1.2vw;
+    margin-left: 1.6vw;
+}
+
+
+
+
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#page1 h1 {
+ font-size: 8.5vw;
+ text-transform: uppercase;
+ font-weight: 900;
+ line-height: 9vw;
+}
+
+#page1 h1 svg {
+    height: 6vw;
+    width:6vw;
+    background-color: #0da34e;
+    border-radius: 50%;
+}
+
+#page1 p {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 3vh;
+}
+
+#page1-something {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1-something h4 {
+    font-weight: 400;
+    font-size: 1vw;
+    text-transform: lowercase;
+    margin-top: 0.5vw;
+    padding: 5px 10px;
+    border: 1px solid #a5a5a5;
+    border-radius: 50px;
+}
+
+#page1-something h4:nth-child(3) {
+    border: none;
+    padding: 2px;
+}
+
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+>>>>>>> 77561de3cfdc920d4ed6c06f8bb514ceae47278a
